@@ -5,7 +5,7 @@ A simple discord bot for server age verification
 The bot can be ran using the provided docker image, just pass in a token via an env variable
 
 ```bash
-docker run -d -e DISCORD_TOKEN=<token> discord-minor-checker:latest
+docker run -d -e DISCORD_TOKEN=<token> ghcr.io/wazbat/discord-minor-checker:latest
 ```
 
 ### Building the bot
