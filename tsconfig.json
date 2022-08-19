@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2019",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "allowSyntheticDefaultImports": true,
+      "outDir": "dist",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "incremental": true
+    },
+    "compileOnSave": true,
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}

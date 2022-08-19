@@ -1,0 +1,34 @@
+{
+  "name": "discord-minor-checker",
+  "version": "1.0.0",
+  "description": "A simple discord bot for server age verification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wazbat/discord-minor-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wazbat/discord-minor-checker/issues"
+  },
+  "homepage": "https://github.com/Wazbat/discord-minor-checker#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.7",
+    "@types/node": "^18.7.7",
+    "eslint": "^8.22.0",
+    "jest": "^28.1.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "discord.js": "^14.2.0",
+    "source-map-support": "^0.5.21",
+    "winston": "^3.8.1",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
